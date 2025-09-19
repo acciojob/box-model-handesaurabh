@@ -1,32 +1,31 @@
 /*  your css code here. If applicable */
-.main{
-width:393px;
-	height:130px;
-	background-color:lightgray;
-	border: 4px solid black;
-	border-radius:40px;
-	justify-content:center;
-}
-.green{
-	width:90px;
-	height:90px;
-	background-color:green;
-	border-radius:50%;
-	margin:20px 50px;
-}
-.yellow{
-	width:90px;
-	height:90px;
-	background-color:yellow;
-	border-radius:50%;
-	margin-top:-110px;
-	margin-left:150px;
-}
-.red{
-	width:90px;
-	height:90px;
-	background-color:red;
-	border-radius:50%;
-	margin-top:-90px;
-	margin-left:250px
-}
+ .container {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #d3d3d3; 
+      border: 2px solid black;
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    
+    .red, .green, .yellow {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      margin: 0 5px;
+      border-radius: 50%;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
